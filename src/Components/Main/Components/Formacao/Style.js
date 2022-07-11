@@ -16,7 +16,7 @@ export const Box1 = styled.div`
  @media only screen and (max-width: 500px){
     display: flex;
     flex-direction: column;
-    width: 100% ;   
+    width: 100% ;       
   }
 `
 
@@ -39,10 +39,10 @@ export const SubTitle = styled.h2`
 `
 
 export const Box1a = styled.div`
-   border: 1px solid red;
    display: flex;
    flex-direction: column;
-   width: 37%
+   width: 37%;   
+   margin-top: 3vh;
 `
 
 export const Img = styled.img`
@@ -59,13 +59,14 @@ export const Img = styled.img`
 
 export const Info = styled.h3`
     color: #0F2260;
-    margin-bottom: 2vh;  
+    margin-bottom: 2vh;      
 `
 
 export const Box1b = styled.div`
     width: 40.2%;
     @media only screen and (max-width: 500px){
-    width: 80% ;   
+    width: 80% ;       
+    margin-top: 3vh;
   }
 `
 
@@ -75,7 +76,6 @@ export const SubBox = styled.div`
 
 export const Box2 = styled.div`
     width: 49%;
-    border: 1px solid red;
     display: flex;
     align-items: center;
     @media only screen and (max-width: 500px){

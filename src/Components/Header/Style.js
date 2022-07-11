@@ -3,7 +3,7 @@ import fundo from "../../Images/wall1.png"
 
 export const Container = styled.section`
   width: 100%;
-  height: 125.8vh;
+  height: 115.8vh;
   background-size: 100% 100%;
   background-image: url(${fundo});
   @media only screen and (max-width: 500px){
@@ -13,7 +13,6 @@ export const Container = styled.section`
 
 export const Box1 = styled.div`
   width: 100%;
-  border: 1px solid red;
   display: flex;
   align-items: center;
   height: 15vh;
@@ -34,6 +33,11 @@ export const List = styled.ul`
   display: flex;  
 `
 
+export const Path = styled.a`
+  padding-right: 8%;
+  text-decoration: none;
+`
+
 export const ListItem = styled.li`
   list-style: none;
   color: #FFFFFF;
@@ -45,7 +49,6 @@ export const ListItem = styled.li`
 `
 
 export const Box2 = styled.div`
-  border: 1px solid red;
   width: 77.6%;
   height: 27.5vh;
   margin-left: 11.3%;

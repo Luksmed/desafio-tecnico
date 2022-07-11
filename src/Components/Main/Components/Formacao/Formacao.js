@@ -7,7 +7,7 @@ const Content = () => {
   return(
     <S.Container>
           <S.Box1>
-            <S.SubTitle>Formação</S.SubTitle>  
+            <S.SubTitle id='formacao'>Formação</S.SubTitle>  
             <S.SubBox>
             <S.Box1a>
               <S.Img src={tec} />

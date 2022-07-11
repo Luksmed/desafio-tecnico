@@ -10,7 +10,6 @@ export const Container = styled.section`
 `
 
 export const Box1 = styled.div`
-border: 1px solid red;
 width: 47%;
 display: flex;
 justify-content: center;
@@ -37,7 +36,7 @@ export const Box2 = styled.div`
     @media only screen and (max-width: 500px){
     width: 90%;
     margin-left: 5%;
-    margin-top: 5vh;
+    margin-top: 5vh;   
   }
 `
 
