@@ -8,7 +8,7 @@ export default function Sobre(){
         return(
             <S.Container>
           <S.Box1>
-            <S.Img src={vnw} />
+            <S.Img src={vnw} alt="logo VaiNaWeb"/>
           </S.Box1>
           <S.Box2>
             <S.SubTitle id="sobre">Sobre o Vai na Web</S.SubTitle>

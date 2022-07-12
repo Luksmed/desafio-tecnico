@@ -1,5 +1,4 @@
 import React from 'react'
-import styled from 'styled-components'
 import { createGlobalStyle } from 'styled-components'
 import Header from './Components/Header/Header'
 import Main from './Components/Main/Main'

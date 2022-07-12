@@ -7,7 +7,7 @@ export const Container = styled.section`
   background-size: 100% 100%;
   background-image: url(${fundo});
   @media only screen and (max-width: 500px){
-    height: 75vh ;   
+    height: 73vh ;   
   }
 `
 

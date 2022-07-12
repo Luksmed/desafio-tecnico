@@ -10,8 +10,8 @@ const Content = () => {
             <S.SubTitle id='formacao'>Formação</S.SubTitle>  
             <S.SubBox>
             <S.Box1a>
-              <S.Img src={tec} />
-              <S.Img src={tec} />
+              <S.Img src={tec} alt="monitor de computador"/>
+              <S.Img src={tec} alt="monitor de computador"/>
             </S.Box1a>
             <S.Box1b>
               <S.Info>FRONT-END</S.Info>
@@ -22,7 +22,7 @@ const Content = () => {
             </S.SubBox>                         
           </S.Box1>
           <S.Box2>
-            <S.Img2 src={code} />
+            <S.Img2 src={code} alt="diversas linhas de programação" />
           </S.Box2>            
         </S.Container>
   )

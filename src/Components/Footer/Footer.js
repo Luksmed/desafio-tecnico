@@ -15,11 +15,11 @@ const Content = () => {
               <S.Line>Siga nossas redes sociais e fique conectado com todas as novidades.</S.Line>
               <S.Nav>
                 <S.List>
-                  <S.ListItem><a href="https://www.facebook.com/vainaweb" target="_blank"><S.Img src={facebook} /></a></S.ListItem>
-                  <S.ListItem><a href='https://www.instagram.com/vainaweb/' target="_blank"><S.Img src={insta} /></a></S.ListItem>
-                  <S.ListItem><a href='https://medium.com/@olavainaweb' target="_blank"><S.Img src={linkedin} /></a></S.ListItem>
-                  <S.ListItem><a href='https://www.linkedin.com/company/vainaweb/?originalSubdomain=br' target="_blank"><S.Img src={medium} /></a></S.ListItem>
-                  <S.ListItem><a href='https://www.youtube.com/channel/UCzUldn76ZB0b-g6WOij9m3w' target="_blank"><S.Img src={youtube} /></a></S.ListItem>  
+                  <S.ListItem><a href="https://www.facebook.com/vainaweb" target="_blank"><S.Img src={facebook} alt="ícone do Facebook"/></a></S.ListItem>
+                  <S.ListItem><a href='https://www.instagram.com/vainaweb/' target="_blank"><S.Img src={insta} alt="ícone do Instagram"/></a></S.ListItem>
+                  <S.ListItem><a href='https://medium.com/@olavainaweb' target="_blank"><S.Img src={linkedin} alt="ícone do LinkedIn"/></a></S.ListItem>
+                  <S.ListItem><a href='https://www.linkedin.com/company/vainaweb/?originalSubdomain=br' target="_blank"><S.Img src={medium} alt="ícone do Medium"/></a></S.ListItem>
+                  <S.ListItem><a href='https://www.youtube.com/channel/UCzUldn76ZB0b-g6WOij9m3w' target="_blank"><S.Img src={youtube} alt="ícone do YouTube"/></a></S.ListItem>  
                 </S.List>
               </S.Nav>
             </S.Box1>

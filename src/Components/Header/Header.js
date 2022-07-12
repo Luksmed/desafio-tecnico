@@ -6,7 +6,7 @@ const Content = () => {
     return(
         <S.Container>      
         <S.Box1>
-          <S.Img src={logo} alt="" />
+          <S.Img src={logo} alt="logo VaiNaWeb" />
           <S.Nav>
             <S.List>
               <S.Path href='#sobre'><S.ListItem>Sobre</S.ListItem></S.Path>
